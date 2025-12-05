@@ -1,0 +1,71 @@
+{
+  "project": "interval",
+  "jobs": [
+    {
+      "id": 1,
+      "start": 14,
+      "finish": 17,
+      "profit": 11
+    },
+    {
+      "id": 2,
+      "start": 8,
+      "finish": 11,
+      "profit": 8
+    },
+    {
+      "id": 3,
+      "start": 13,
+      "finish": 15,
+      "profit": 15
+    },
+    {
+      "id": 4,
+      "start": 8,
+      "finish": 10,
+      "profit": 7
+    },
+    {
+      "id": 5,
+      "start": 9,
+      "finish": 10,
+      "profit": 5
+    },
+    {
+      "id": 6,
+      "start": 7,
+      "finish": 8,
+      "profit": 8
+    },
+    {
+      "id": 7,
+      "start": 9,
+      "finish": 12,
+      "profit": 14
+    },
+    {
+      "id": 8,
+      "start": 9,
+      "finish": 12,
+      "profit": 18
+    },
+    {
+      "id": 9,
+      "start": 13,
+      "finish": 14,
+      "profit": 12
+    },
+    {
+      "id": 10,
+      "start": 8,
+      "finish": 10,
+      "profit": 11
+    },
+    {
+      "id": 11,
+      "start": 10,
+      "finish": 13,
+      "profit": 20
+    }
+  ]
+}
