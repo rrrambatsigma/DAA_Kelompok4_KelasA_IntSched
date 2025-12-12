@@ -1,0 +1,405 @@
+Hari,Jam,Mata Kuliah,Semester,SKS,Dosen,Ruang,Kelas,Kapasitas Kelas
+Senin,09:20:00 - 10:10:00,Kalkulus I,1,3,SUPRIYADI WIBOWO,R001,A,25
+Senin,10:15:00 - 11:05:00,Kalkulus I,1,3,SUPRIYADI WIBOWO,R001,A,25
+Senin,11:10:00 - 12:00:00,Kalkulus I,1,3,SUPRIYADI WIBOWO,R001,A,25
+Senin,13:00:00 - 13:50:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R001,B,25
+Senin,13:55:00 - 14:45:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R001,B,25
+Senin,15:30:00 - 16:20:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R001,B,25
+Senin,16:25:00 - 17:15:00,Data Mining,5,3,WIRANTO,R001,E,25
+Senin,18:10:00 - 19:00:00,Data Mining,5,3,WIRANTO,R001,E,25
+Senin,22:15:00 - 23:05:00,Data Mining,5,3,WIRANTO,R001,E,25
+Senin,13:00:00 - 13:50:00,Bahasa Indonesia,1,2,KUNDHARU SADDHONO,R002,C,40
+Senin,13:55:00 - 14:45:00,Bahasa Indonesia,1,2,KUNDHARU SADDHONO,R002,C,40
+Senin,15:30:00 - 16:20:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R002,C,40
+Senin,10:15:00 - 11:05:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R002,D,40
+Senin,07:30:00 - 08:20:00,Manajemen Jaringan,5,3,HERDITO IBNU DEWANGKORO,R002,A,40
+Senin,08:25:00 - 09:15:00,Manajemen Jaringan,5,3,HERDITO IBNU DEWANGKORO,R002,A,40
+Senin,09:20:00 - 10:10:00,Manajemen Jaringan,5,3,HERDITO IBNU DEWANGKORO,R002,A,40
+Senin,07:30:00 - 08:20:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R003,C,30
+Senin,08:25:00 - 09:15:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R003,C,30
+Senin,09:20:00 - 10:10:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R003,C,30
+Senin,10:15:00 - 11:05:00,Metode Numerik,3,3,UMI SALAMAH,R003,B,30
+Senin,11:10:00 - 12:00:00,Metode Numerik,3,3,UMI SALAMAH,R003,B,30
+Senin,13:00:00 - 13:50:00,Basis Data,3,4,BAMBANG WIDOYONO,R003,D,30
+Senin,13:55:00 - 14:45:00,Basis Data,3,4,BAMBANG WIDOYONO,R003,D,30
+Senin,15:30:00 - 16:20:00,Basis Data,3,4,BAMBANG WIDOYONO,R003,D,30
+Senin,16:25:00 - 17:15:00,Basis Data,3,4,BAMBANG WIDOYONO,R003,D,30
+Senin,13:00:00 - 13:50:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R004,A,25
+Senin,13:55:00 - 14:45:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R004,A,25
+Senin,15:30:00 - 16:20:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R004,A,25
+Senin,07:30:00 - 08:20:00,Matematika Diskrit II,3,2,HERI PRASETYO,R004,C,25
+Senin,08:25:00 - 09:15:00,Matematika Diskrit II,3,2,HERI PRASETYO,R004,C,25
+Senin,09:20:00 - 10:10:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,A,25
+Senin,10:15:00 - 11:05:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,A,25
+Senin,11:10:00 - 12:00:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,A,25
+Senin,07:30:00 - 08:20:00,Sistem Digital,1,3,ENDRA PRATAMA,R005,A,25
+Senin,08:25:00 - 09:15:00,Sistem Digital,1,3,ENDRA PRATAMA,R005,A,25
+Senin,13:00:00 - 13:50:00,Bahasa Indonesia,1,2,MUHAMMAD ROHMADI,R005,A,25
+Senin,13:55:00 - 14:45:00,Bahasa Indonesia,1,2,MUHAMMAD ROHMADI,R005,A,25
+Senin,09:20:00 - 10:10:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R005,B,25
+Senin,10:15:00 - 11:05:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R005,B,25
+Senin,11:10:00 - 12:00:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R005,B,25
+Senin,15:30:00 - 16:20:00,Metode Numerik,3,3,UMI SALAMAH,R005,C,25
+Senin,16:25:00 - 17:15:00,Bahasa Inggris I,1,2,"PRIMANDA DEWANTI, S.PD.",R006,A,35
+Senin,18:10:00 - 19:00:00,Bahasa Inggris I,1,2,"PRIMANDA DEWANTI, S.PD.",R006,A,35
+Senin,09:20:00 - 10:10:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R006,A,35
+Senin,10:15:00 - 11:05:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R006,A,35
+Senin,11:10:00 - 12:00:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R006,A,35
+Senin,07:30:00 - 08:20:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R006,D,35
+Senin,08:25:00 - 09:15:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R006,D,35
+Senin,13:00:00 - 13:50:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R006,E,35
+Senin,13:55:00 - 14:45:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R006,E,35
+Senin,15:30:00 - 16:20:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R006,E,35
+Senin,07:30:00 - 08:20:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,D,20
+Senin,08:25:00 - 09:15:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,D,20
+Senin,09:20:00 - 10:10:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,D,20
+Senin,10:15:00 - 11:05:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R007,A,20
+Senin,11:10:00 - 12:00:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R007,A,20
+Senin,13:00:00 - 13:50:00,Data Mining,5,3,WIRANTO,R007,A,20
+Senin,13:55:00 - 14:45:00,Data Mining,5,3,WIRANTO,R007,A,20
+Senin,15:30:00 - 16:20:00,Data Mining,5,3,WIRANTO,R007,A,20
+Senin,15:30:00 - 16:20:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R008,B,45
+Senin,09:20:00 - 10:10:00,Teori Game,5,3,NUGHTHOH ARFAWI KURDHI,R008,B,45
+Senin,10:15:00 - 11:05:00,Teori Game,5,3,NUGHTHOH ARFAWI KURDHI,R008,B,45
+Senin,11:10:00 - 12:00:00,Teori Game,5,3,NUGHTHOH ARFAWI KURDHI,R008,B,45
+Senin,07:30:00 - 08:20:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R008,A,45
+Senin,08:25:00 - 09:15:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R008,A,45
+Senin,13:00:00 - 13:50:00,Etika Profesi,7,2,HARYONO SETIADI,R008,A,45
+Senin,13:55:00 - 14:45:00,Etika Profesi,7,2,HARYONO SETIADI,R008,A,45
+Senin,07:30:00 - 08:20:00,Matematika Dasar,1,3,RISTU SAPTONO,R009,B,30
+Senin,08:25:00 - 09:15:00,Matematika Dasar,1,3,RISTU SAPTONO,R009,B,30
+Senin,09:20:00 - 10:10:00,Matematika Dasar,1,3,RISTU SAPTONO,R009,B,30
+Senin,10:15:00 - 11:05:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,A,30
+Senin,11:10:00 - 12:00:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,A,30
+Senin,13:00:00 - 13:50:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,A,30
+Senin,13:55:00 - 14:45:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,B,30
+Senin,15:30:00 - 16:20:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,B,30
+Senin,16:25:00 - 17:15:00,Pemodelan dan Simulasi,3,3,SHAIFUDIN ZUHDI,R009,B,30
+Senin,07:30:00 - 08:20:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R010,A,30
+Senin,08:25:00 - 09:15:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R010,A,30
+Senin,09:20:00 - 10:10:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R010,A,30
+Senin,10:15:00 - 11:05:00,Matematika Dasar,1,3,RISTU SAPTONO,R010,A,30
+Senin,11:10:00 - 12:00:00,Matematika Dasar,1,3,RISTU SAPTONO,R010,A,30
+Senin,13:00:00 - 13:50:00,Matematika Dasar,1,3,RISTU SAPTONO,R010,A,30
+Senin,19:30:00 - 20:20:00,Bahasa Inggris,1,2,"PRIMANDA DEWANTI, S.PD.",R010,A,30
+Senin,20:25:00 - 21:15:00,Bahasa Inggris,1,2,"PRIMANDA DEWANTI, S.PD.",R010,A,30
+Senin,13:55:00 - 14:45:00,Analisis Data Citra Biomedik,5,3,ESTI SURYANI,R010,A,30
+Senin,15:30:00 - 16:20:00,Analisis Data Citra Biomedik,5,3,ESTI SURYANI,R010,A,30
+Senin,16:25:00 - 17:15:00,Analisis Data Citra Biomedik,5,3,ESTI SURYANI,R010,A,30
+Selasa,07:30:00 - 08:20:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,D,25
+Selasa,08:25:00 - 09:15:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,D,25
+Selasa,09:20:00 - 10:10:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,D,25
+Selasa,13:00:00 - 13:50:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R001,C,25
+Selasa,13:55:00 - 14:45:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R001,C,25
+Selasa,15:30:00 - 16:20:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R001,C,25
+Selasa,10:15:00 - 11:05:00,Organisasi dan Arsitektur Komputer,1,3,HERDITO IBNU DEWANGKORO,R001,B,25
+Selasa,09:20:00 - 10:10:00,Pendidikan Agama Islam,1,2,CHOIROEL ANAM,R002,C,40
+Selasa,10:15:00 - 11:05:00,Pendidikan Agama Islam,1,2,CHOIROEL ANAM,R002,C,40
+Selasa,13:00:00 - 13:50:00,Pendidikan Agama Islam,1,2,RELLY PRIHATIN,R002,D,40
+Selasa,13:55:00 - 14:45:00,Pendidikan Agama Islam,1,2,RELLY PRIHATIN,R002,D,40
+Selasa,07:30:00 - 08:20:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R002,C,40
+Selasa,08:25:00 - 09:15:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R002,C,40
+Selasa,11:10:00 - 12:00:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R002,C,40
+Selasa,15:30:00 - 16:20:00,Pemrograman Berorientasi Objek,3,3,ARIF ROHMADI,R002,D,40
+Selasa,07:30:00 - 08:20:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R003,B,30
+Selasa,08:25:00 - 09:15:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R003,B,30
+Selasa,09:20:00 - 10:10:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R003,B,30
+Selasa,13:00:00 - 13:50:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Selasa,13:55:00 - 14:45:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Selasa,15:30:00 - 16:20:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Selasa,10:15:00 - 11:05:00,Bahasa Indonesia,1,2,MUHAMMAD ROHMADI,R004,B,25
+Selasa,11:10:00 - 12:00:00,Bahasa Indonesia,1,2,MUHAMMAD ROHMADI,R004,B,25
+Selasa,07:30:00 - 08:20:00,Semantic Web,7,3,DEWI WISNU WARDANI,R004,A,25
+Selasa,08:25:00 - 09:15:00,Semantic Web,7,3,DEWI WISNU WARDANI,R004,A,25
+Selasa,09:20:00 - 10:10:00,Semantic Web,7,3,DEWI WISNU WARDANI,R004,A,25
+Selasa,13:00:00 - 13:50:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,B,25
+Selasa,13:55:00 - 14:45:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,B,25
+Selasa,15:30:00 - 16:20:00,Kecerdasan Komputasional,7,3,WIHARTO,R004,B,25
+Selasa,10:15:00 - 11:05:00,Bahasa Indonesia,1,2,KUNDHARU SADDHONO,R005,D,25
+Selasa,11:10:00 - 12:00:00,Bahasa Indonesia,1,2,KUNDHARU SADDHONO,R005,D,25
+Selasa,16:25:00 - 17:15:00,Pendidikan Agama katholik,1,2,VINSENSIUS KRISWIDIATMA TJAHJA H,R005,E,25
+Selasa,18:10:00 - 19:00:00,Pendidikan Agama katholik,1,2,VINSENSIUS KRISWIDIATMA TJAHJA H,R005,E,25
+Selasa,22:15:00 - 23:05:00,Pendidikan Agama Kristen,1,2,HERY HARJANTO,R005,F,25
+Selasa,22:15:00 - 23:05:00,Pendidikan Agama Kristen,1,2,HERY HARJANTO,R005,F,25
+Selasa,07:30:00 - 08:20:00,Machine Learning,5,3,SHAIFUDIN ZUHDI,R005,A,25
+Selasa,08:25:00 - 09:15:00,Machine Learning,5,3,SHAIFUDIN ZUHDI,R005,A,25
+Selasa,09:20:00 - 10:10:00,Machine Learning,5,3,SHAIFUDIN ZUHDI,R005,A,25
+Selasa,13:00:00 - 13:50:00,Manajemen Sistem Informasi,5,3,RINI ANGGRAININGSIH,R005,A,25
+Selasa,13:55:00 - 14:45:00,Manajemen Sistem Informasi,5,3,RINI ANGGRAININGSIH,R005,A,25
+Selasa,15:30:00 - 16:20:00,Manajemen Sistem Informasi,5,3,RINI ANGGRAININGSIH,R005,A,25
+Selasa,07:30:00 - 08:20:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R006,A,35
+Selasa,08:25:00 - 09:15:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R006,A,35
+Selasa,09:20:00 - 10:10:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R006,A,35
+Selasa,15:30:00 - 16:20:00,Metode Numerik,3,3,UMI SALAMAH,R006,A,35
+Selasa,13:00:00 - 13:50:00,Matematika Diskrit II,3,2,SHAIFUDIN ZUHDI,R006,B,35
+Selasa,13:55:00 - 14:45:00,Matematika Diskrit II,3,2,SHAIFUDIN ZUHDI,R006,B,35
+Selasa,10:15:00 - 11:05:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R006,B,35
+Selasa,13:00:00 - 13:50:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,C,20
+Selasa,13:55:00 - 14:45:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,C,20
+Selasa,15:30:00 - 16:20:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,C,20
+Selasa,16:25:00 - 17:15:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R007,C,20
+Selasa,07:30:00 - 08:20:00,Matematika Diskrit II,3,2,HERI PRASETYO,R007,D,20
+Selasa,08:25:00 - 09:15:00,Matematika Diskrit II,3,2,HERI PRASETYO,R007,D,20
+Selasa,15:30:00 - 16:20:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R008,B,45
+Selasa,07:30:00 - 08:20:00,Etika Profesi,7,2,HARYONO SETIADI,R008,B,45
+Selasa,08:25:00 - 09:15:00,Etika Profesi,7,2,HARYONO SETIADI,R008,B,45
+Selasa,13:00:00 - 13:50:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R008,C,45
+Selasa,13:55:00 - 14:45:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R008,C,45
+Selasa,09:20:00 - 10:10:00,Kewirausahaan,7,2,NISAUL HASANAH A ROSYAD,R008,D,45
+Selasa,10:15:00 - 11:05:00,Kewirausahaan,7,2,NISAUL HASANAH A ROSYAD,R008,D,45
+Selasa,07:30:00 - 08:20:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R009,B,30
+Selasa,08:25:00 - 09:15:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R009,B,30
+Selasa,09:20:00 - 10:10:00,Statistika Sains Data,1,3,GETUT PRAMESTI,R009,B,30
+Selasa,11:10:00 - 12:00:00,Pancasila,3,2,MUHAMMAD HENDRI NURYADI,R009,A,30
+Selasa,13:00:00 - 13:50:00,Pancasila,3,2,MUHAMMAD HENDRI NURYADI,R009,A,30
+Selasa,13:55:00 - 14:45:00,Pancasila,3,2,MUHAMMAD HENDRI NURYADI,R009,B,30
+Selasa,15:30:00 - 16:20:00,Pancasila,3,2,MUHAMMAD HENDRI NURYADI,R009,B,30
+Selasa,16:25:00 - 17:15:00,Pendidikan Agama Kristen,1,2,HERY HARJANTO,R009,A,30
+Selasa,18:10:00 - 19:00:00,Pendidikan Agama Kristen,1,2,HERY HARJANTO,R009,A,30
+Selasa,07:30:00 - 08:20:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R010,B,30
+Selasa,08:25:00 - 09:15:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R010,B,30
+Selasa,09:20:00 - 10:10:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R010,B,30
+Selasa,10:15:00 - 11:05:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R010,B,30
+Selasa,11:10:00 - 12:00:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R010,B,30
+Selasa,13:00:00 - 13:50:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R010,B,30
+Selasa,13:55:00 - 14:45:00,Intelijen Bisnis,5,3,ENDRA PRATAMA,R010,A,30
+Selasa,15:30:00 - 16:20:00,Intelijen Bisnis,5,3,ENDRA PRATAMA,R010,A,30
+Selasa,16:25:00 - 17:15:00,Intelijen Bisnis,5,3,ENDRA PRATAMA,R010,A,30
+Rabu,07:30:00 - 08:20:00,Matematika Diskrit II,3,2,SHAIFUDIN ZUHDI,R001,A,25
+Rabu,08:25:00 - 09:15:00,Matematika Diskrit II,3,2,SHAIFUDIN ZUHDI,R001,A,25
+Rabu,13:00:00 - 13:50:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R001,F,25
+Rabu,13:55:00 - 14:45:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R001,F,25
+Rabu,15:30:00 - 16:20:00,Sistem Terdistribusi,5,3,WISNU WIDIARTO,R001,F,25
+Rabu,13:00:00 - 13:50:00,Sistem Digital,1,3,ENDRA PRATAMA,R002,B,40
+Rabu,13:55:00 - 14:45:00,Sistem Digital,1,3,ENDRA PRATAMA,R002,B,40
+Rabu,15:30:00 - 16:20:00,Sistem Digital,1,3,ENDRA PRATAMA,R002,B,40
+Rabu,10:15:00 - 11:05:00,Riset Operasi,5,2,BAMBANG HARJITO,R002,A,40
+Rabu,11:10:00 - 12:00:00,Riset Operasi,5,2,BAMBANG HARJITO,R002,A,40
+Rabu,07:30:00 - 08:20:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R002,B,40
+Rabu,08:25:00 - 09:15:00,Kewirausahaan,7,2,AKHMAD SYAIFUDDIN,R002,B,40
+Rabu,13:00:00 - 13:50:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R003,B,30
+Rabu,13:55:00 - 14:45:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R003,B,30
+Rabu,15:30:00 - 16:20:00,Pemrograman Berorientasi Objek,3,3,AFRIZAL DOEWES,R003,B,30
+Rabu,07:30:00 - 08:20:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Rabu,08:25:00 - 09:15:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Rabu,09:20:00 - 10:10:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R003,C,30
+Rabu,10:15:00 - 11:05:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R003,B,30
+Rabu,11:10:00 - 12:00:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R003,B,30
+Rabu,10:15:00 - 11:05:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R004,D,25
+Rabu,11:10:00 - 12:00:00,Sistem Operasi,3,3,HERDITO IBNU DEWANGKORO,R004,D,25
+Rabu,07:30:00 - 08:20:00,Data Mining,5,3,WIRANTO,R004,B,25
+Rabu,08:25:00 - 09:15:00,Data Mining,5,3,WIRANTO,R004,B,25
+Rabu,09:20:00 - 10:10:00,Data Mining,5,3,WIRANTO,R004,B,25
+Rabu,13:00:00 - 13:50:00,Data Mining,5,3,WIRANTO,R004,C,25
+Rabu,13:55:00 - 14:45:00,Data Mining,5,3,WIRANTO,R004,C,25
+Rabu,15:30:00 - 16:20:00,Data Mining,5,3,WIRANTO,R004,C,25
+Rabu,10:15:00 - 11:05:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R005,C,25
+Rabu,11:10:00 - 12:00:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R005,C,25
+Rabu,13:00:00 - 13:50:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R005,D,25
+Rabu,13:55:00 - 14:45:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R005,D,25
+Rabu,15:30:00 - 16:20:00,Statistika & Probabilitas,1,3,ESTI SURYANI,R005,D,25
+Rabu,07:30:00 - 08:20:00,Komputasi Grid,5,3,WISNU WIDIARTO,R005,A,25
+Rabu,08:25:00 - 09:15:00,Komputasi Grid,5,3,WISNU WIDIARTO,R005,A,25
+Rabu,09:20:00 - 10:10:00,Komputasi Grid,5,3,WISNU WIDIARTO,R005,A,25
+Rabu,07:30:00 - 08:20:00,Kalkulus I,1,3,MIRA ANDRIYANI,R006,C,35
+Rabu,08:25:00 - 09:15:00,Kalkulus I,1,3,MIRA ANDRIYANI,R006,C,35
+Rabu,09:20:00 - 10:10:00,Kalkulus I,1,3,MIRA ANDRIYANI,R006,C,35
+Rabu,13:00:00 - 13:50:00,Basis Data Lanjut,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Rabu,13:55:00 - 14:45:00,Basis Data Lanjut,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Rabu,15:30:00 - 16:20:00,Basis Data Lanjut,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Rabu,10:15:00 - 11:05:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R006,D,35
+Rabu,11:10:00 - 12:00:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R006,D,35
+Rabu,15:30:00 - 16:20:00,Konsep Pemrograman,1,4,BAMBANG HARJITO,R007,A,20
+Rabu,10:15:00 - 11:05:00,Metode Numerik,3,3,UMI SALAMAH,R007,A,20
+Rabu,11:10:00 - 12:00:00,Metode Numerik,3,3,UMI SALAMAH,R007,A,20
+Rabu,13:00:00 - 13:50:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R007,B,20
+Rabu,13:55:00 - 14:45:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R007,B,20
+Rabu,10:15:00 - 11:05:00,Sistem Operasi,3,3,HARYONO SETIADI,R008,B,45
+Rabu,11:10:00 - 12:00:00,Sistem Operasi,3,3,HARYONO SETIADI,R008,B,45
+Rabu,07:30:00 - 08:20:00,Basis Data,3,4,BAMBANG WIDOYONO,R008,C,45
+Rabu,08:25:00 - 09:15:00,Basis Data,3,4,BAMBANG WIDOYONO,R008,C,45
+Rabu,09:20:00 - 10:10:00,Basis Data,3,4,BAMBANG WIDOYONO,R008,C,45
+Rabu,13:00:00 - 13:50:00,Teknologi IoT,7,3,ABDUL AZIZ,R008,A,45
+Rabu,13:55:00 - 14:45:00,Teknologi IoT,7,3,ABDUL AZIZ,R008,A,45
+Rabu,15:30:00 - 16:20:00,Teknologi IoT,7,3,ABDUL AZIZ,R008,A,45
+Rabu,07:30:00 - 08:20:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R009,A,30
+Rabu,08:25:00 - 09:15:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R009,A,30
+Rabu,09:20:00 - 10:10:00,Pembelajaran Mesin,5,3,MUHAMMAD FAHMY NADHIF,R009,A,30
+Rabu,10:15:00 - 11:05:00,Organisasi dan Arsitektur Komputer,1,3,BRILYAN HENDRASURYAWAN,R009,A,30
+Rabu,11:10:00 - 12:00:00,Organisasi dan Arsitektur Komputer,1,3,BRILYAN HENDRASURYAWAN,R009,A,30
+Rabu,13:00:00 - 13:50:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R009,A,30
+Rabu,13:55:00 - 14:45:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R009,A,30
+Rabu,15:30:00 - 16:20:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R009,A,30
+Rabu,16:25:00 - 17:15:00,Organisasi dan Arsitektur Komputer,1,3,BRILYAN HENDRASURYAWAN,R009,A,30
+Rabu,18:10:00 - 19:00:00,Pendidikan Agama Katolik,1,2,VINSENSIUS KRISWIDIATMA TJAHJA H,R009,A,30
+Rabu,19:30:00 - 20:20:00,Pendidikan Agama Katolik,1,2,VINSENSIUS KRISWIDIATMA TJAHJA H,R009,A,30
+Rabu,07:30:00 - 08:20:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R010,A,30
+Rabu,08:25:00 - 09:15:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R010,A,30
+Rabu,09:20:00 - 10:10:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R010,A,30
+Rabu,10:15:00 - 11:05:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R010,A,30
+Rabu,11:10:00 - 12:00:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R010,A,30
+Rabu,13:00:00 - 13:50:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,B,30
+Rabu,13:55:00 - 14:45:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,B,30
+Rabu,15:30:00 - 16:20:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,B,30
+Rabu,16:25:00 - 17:15:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,B,30
+Kamis,10:15:00 - 11:05:00,Pendidikan Agama Islam,1,2,IRFAN A N,R001,A,25
+Kamis,11:10:00 - 12:00:00,Pendidikan Agama Islam,1,2,IRFAN A N,R001,A,25
+Kamis,13:00:00 - 13:50:00,Fisika,1,3,BUDI PURNAMA,R001,B,25
+Kamis,13:55:00 - 14:45:00,Fisika,1,3,BUDI PURNAMA,R001,B,25
+Kamis,15:30:00 - 16:20:00,Fisika,1,3,BUDI PURNAMA,R001,B,25
+Kamis,07:30:00 - 08:20:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,C,25
+Kamis,08:25:00 - 09:15:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,C,25
+Kamis,09:20:00 - 10:10:00,Fisika ( Team Teaching ),1,3,AGUS SUPRIYANTO + LUTHFIYA KURNIA PERMATAHATI,R001,C,25
+Kamis,16:25:00 - 17:15:00,Analisis Data Timeseries,5,3,SHAIFUDIN ZUHDI,R001,A,25
+Kamis,18:10:00 - 19:00:00,Analisis Data Timeseries,5,3,SHAIFUDIN ZUHDI,R001,A,25
+Kamis,19:30:00 - 20:20:00,Analisis Data Timeseries,5,3,SHAIFUDIN ZUHDI,R001,A,25
+Kamis,10:15:00 - 11:05:00,Pendidikan Pancasila,3,2,IRWAN IFTADI,R002,A,40
+Kamis,11:10:00 - 12:00:00,Pendidikan Pancasila,3,2,IRWAN IFTADI,R002,A,40
+Kamis,15:30:00 - 16:20:00,Basis Data,3,4,BRILYAN HENDRASURYAWAN,R002,A,40
+Kamis,07:30:00 - 08:20:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R002,B,40
+Kamis,08:25:00 - 09:15:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R002,B,40
+Kamis,09:20:00 - 10:10:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R002,B,40
+Kamis,13:00:00 - 13:50:00,Pendidikan Pancasila,3,2,IRWAN IFTADI,R002,B,40
+Kamis,13:55:00 - 14:45:00,Pendidikan Pancasila,3,2,IRWAN IFTADI,R002,B,40
+Kamis,10:15:00 - 11:05:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R003,A,30
+Kamis,11:10:00 - 12:00:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R003,A,30
+Kamis,13:00:00 - 13:50:00,Pengolahan Citra Digital,5,3,HERI PRASETYO,R003,A,30
+Kamis,13:55:00 - 14:45:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,A,30
+Kamis,15:30:00 - 16:20:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,A,30
+Kamis,16:25:00 - 17:15:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,A,30
+Kamis,07:30:00 - 08:20:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,B,30
+Kamis,08:25:00 - 09:15:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,B,30
+Kamis,09:20:00 - 10:10:00,Sistem Terdistribusi,5,3,FAJAR MUSLIM,R003,B,30
+Kamis,07:30:00 - 08:20:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R004,A,25
+Kamis,08:25:00 - 09:15:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R004,A,25
+Kamis,09:20:00 - 10:10:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R004,A,25
+Kamis,10:15:00 - 11:05:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R004,D,25
+Kamis,11:10:00 - 12:00:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R004,D,25
+Kamis,16:25:00 - 17:15:00,Sistem Digital,1,3,AKHMAD SYAIFUDDIN,R004,D,25
+Kamis,13:00:00 - 13:50:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R004,C,25
+Kamis,13:55:00 - 14:45:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R004,C,25
+Kamis,15:30:00 - 16:20:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R004,C,25
+Kamis,07:30:00 - 08:20:00,Metode Numerik,3,3,UMI SALAMAH,R005,C,25
+Kamis,08:25:00 - 09:15:00,Metode Numerik,3,3,UMI SALAMAH,R005,C,25
+Kamis,13:00:00 - 13:50:00,Metode Numerik,3,3,UMI SALAMAH,R005,D,25
+Kamis,13:55:00 - 14:45:00,Metode Numerik,3,3,UMI SALAMAH,R005,D,25
+Kamis,15:30:00 - 16:20:00,Metode Numerik,3,3,UMI SALAMAH,R005,D,25
+Kamis,09:20:00 - 10:10:00,Data Mining,5,3,WIRANTO,R005,D,25
+Kamis,10:15:00 - 11:05:00,Data Mining,5,3,WIRANTO,R005,D,25
+Kamis,11:10:00 - 12:00:00,Data Mining,5,3,WIRANTO,R005,D,25
+Kamis,07:30:00 - 08:20:00,Sistem Operasi,3,3,HARYONO SETIADI,R006,A,35
+Kamis,08:25:00 - 09:15:00,Sistem Operasi,3,3,HARYONO SETIADI,R006,A,35
+Kamis,13:00:00 - 13:50:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R006,D,35
+Kamis,13:55:00 - 14:45:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R006,D,35
+Kamis,15:30:00 - 16:20:00,Pengolahan Citra Digital,5,3,HERDITO IBNU DEWANGKORO,R006,D,35
+Kamis,09:20:00 - 10:10:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R006,E,35
+Kamis,10:15:00 - 11:05:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R006,E,35
+Kamis,11:10:00 - 12:00:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R006,E,35
+Kamis,16:25:00 - 17:15:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R006,A,35
+Kamis,16:25:00 - 17:15:00,Sistem Digital,1,3,ENDRA PRATAMA,R007,A,20
+Kamis,07:30:00 - 08:20:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R007,E,20
+Kamis,08:25:00 - 09:15:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R007,E,20
+Kamis,09:20:00 - 10:10:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R007,F,20
+Kamis,10:15:00 - 11:05:00,Interaksi Manusia & Komputer,5,2,RINI ANGGRAININGSIH,R007,F,20
+Kamis,13:00:00 - 13:50:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R007,F,20
+Kamis,13:55:00 - 14:45:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R007,F,20
+Kamis,15:30:00 - 16:20:00,Pengolahan Citra Digital,5,3,ERY PERMANA YUDHA,R007,F,20
+Kamis,10:15:00 - 11:05:00,Pendidikan Agama Islam,1,2,ARIFUDDIN,R008,B,45
+Kamis,11:10:00 - 12:00:00,Pendidikan Agama Islam,1,2,ARIFUDDIN,R008,B,45
+Kamis,16:25:00 - 17:15:00,Basis Data,3,4,BAMBANG WIDOYONO,R008,C,45
+Kamis,07:30:00 - 08:20:00,Pengolahan Sinyal Digital,5,3,HASAN DWI CAHYONO,R008,A,45
+Kamis,08:25:00 - 09:15:00,Pengolahan Sinyal Digital,5,3,HASAN DWI CAHYONO,R008,A,45
+Kamis,09:20:00 - 10:10:00,Pengolahan Sinyal Digital,5,3,HASAN DWI CAHYONO,R008,A,45
+Kamis,13:00:00 - 13:50:00,E-commerce,7,3,HARYONO SETIADI,R008,A,45
+Kamis,13:55:00 - 14:45:00,E-commerce,7,3,HARYONO SETIADI,R008,A,45
+Kamis,15:30:00 - 16:20:00,E-commerce,7,3,HARYONO SETIADI,R008,A,45
+Kamis,07:30:00 - 08:20:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R009,B,30
+Kamis,08:25:00 - 09:15:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R009,B,30
+Kamis,09:20:00 - 10:10:00,Matematika Diskrit dan Teori Graph,3,3,ENDRA PRATAMA,R009,B,30
+Kamis,10:15:00 - 11:05:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R009,A,30
+Kamis,11:10:00 - 12:00:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R009,A,30
+Kamis,13:00:00 - 13:50:00,Teknologi Cloud untuk Big Data dan Data Analitik,5,3,BAMBANG WIDOYONO,R009,A,30
+Kamis,13:55:00 - 14:45:00,Kecerdasan Buatan,3,3,WIHARTO,R009,B,30
+Kamis,15:30:00 - 16:20:00,Kecerdasan Buatan,3,3,WIHARTO,R009,B,30
+Kamis,16:25:00 - 17:15:00,Kecerdasan Buatan,3,3,WIHARTO,R009,B,30
+Kamis,18:10:00 - 19:00:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R009,B,30
+Kamis,07:30:00 - 08:20:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R010,B,30
+Kamis,08:25:00 - 09:15:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R010,B,30
+Kamis,09:20:00 - 10:10:00,Basis Pengetahuan dan Penalaran,5,3,DEWI WISNU WARDANI,R010,B,30
+Kamis,10:15:00 - 11:05:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,B,30
+Kamis,11:10:00 - 12:00:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,B,30
+Kamis,13:00:00 - 13:50:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,B,30
+Kamis,13:55:00 - 14:45:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,A,30
+Kamis,15:30:00 - 16:20:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,A,30
+Kamis,16:25:00 - 17:15:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,A,30
+Kamis,18:10:00 - 19:00:00,Dasar Pemrograman,1,4,HASAN DWI CAHYONO,R010,A,30
+Jumat,16:25:00 - 17:15:00,Pendidikan Agama Islam,1,2,RELLY PRIHATIN,R001,A,25
+Jumat,18:10:00 - 19:00:00,Pendidikan Agama Islam,1,2,RELLY PRIHATIN,R001,A,25
+Jumat,13:00:00 - 13:50:00,Kalkulus I,1,3,ADE SUSANTI,R002,D,40
+Jumat,13:55:00 - 14:45:00,Kalkulus I,1,3,ADE SUSANTI,R002,D,40
+Jumat,15:30:00 - 16:20:00,Kalkulus I,1,3,ADE SUSANTI,R002,D,40
+Jumat,09:20:00 - 10:10:00,Sistem Operasi,3,3,HARYONO SETIADI,R002,A,40
+Jumat,10:15:00 - 11:10:00,Sistem Operasi,3,3,HARYONO SETIADI,R002,B,40
+Jumat,07:30:00 - 08:20:00,Pendidikan Pancasila,3,2,GAYATRI DYAH SUPROBOWATI,R002,C,40
+Jumat,08:25:00 - 09:15:00,Pendidikan Pancasila,3,2,GAYATRI DYAH SUPROBOWATI,R002,C,40
+Jumat,07:30:00 - 08:20:00,Fisika,1,3,BUDI PURNAMA,R003,A,30
+Jumat,08:25:00 - 09:15:00,Fisika,1,3,BUDI PURNAMA,R003,A,30
+Jumat,09:20:00 - 10:10:00,Fisika,1,3,BUDI PURNAMA,R003,A,30
+Jumat,15:30:00 - 16:20:00,Pendidikan Pancasila,3,2,GAYATRI DYAH SUPROBOWATI,R003,D,30
+Jumat,16:25:00 - 17:15:00,Pendidikan Pancasila,3,2,GAYATRI DYAH SUPROBOWATI,R003,D,30
+Jumat,13:00:00 - 13:50:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R003,C,30
+Jumat,13:55:00 - 14:45:00,Interaksi Manusia & Komputer ( Team Teaching ),5,2,ERY PERMANA YUDHA + RINI ANGGRAININGSIH,R003,C,30
+Jumat,13:00:00 - 13:50:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R004,A,25
+Jumat,13:55:00 - 14:45:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R004,A,25
+Jumat,15:30:00 - 16:20:00,Desain & Analisis Algoritma,3,3,ARIF ROHMADI,R004,A,25
+Jumat,07:30:00 - 08:20:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R004,D,25
+Jumat,08:25:00 - 09:15:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R004,D,25
+Jumat,09:20:00 - 10:10:00,Sistem Terdistribusi,5,3,ERY PERMANA YUDHA,R004,D,25
+Jumat,13:00:00 - 13:50:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R005,B,25
+Jumat,13:55:00 - 14:45:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R005,B,25
+Jumat,15:30:00 - 16:20:00,Statistika & Probabilitas,1,3,RISTU SAPTONO,R005,B,25
+Jumat,16:25:00 - 17:15:00,Konsep Pemrograman,1,4,AFRIZAL DOEWES,R005,D,25
+Jumat,07:30:00 - 08:20:00,Wireless & Mobile Computing,5,3,ARIF ROHMADI,R005,A,25
+Jumat,08:25:00 - 09:15:00,Wireless & Mobile Computing,5,3,ARIF ROHMADI,R005,A,25
+Jumat,09:20:00 - 10:10:00,Wireless & Mobile Computing,5,3,ARIF ROHMADI,R005,A,25
+Jumat,07:30:00 - 08:20:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Jumat,08:25:00 - 09:15:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Jumat,09:20:00 - 10:10:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R006,A,35
+Jumat,10:15:00 - 11:10:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R006,A,35
+Jumat,13:00:00 - 13:50:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R006,A,35
+Jumat,13:55:00 - 14:45:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R006,A,35
+Jumat,15:30:00 - 16:20:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R006,B,35
+Jumat,16:25:00 - 17:15:00,Sistem Manajemen Basis Data,3,3,DEWI WISNU WARDANI,R006,B,35
+Jumat,07:30:00 - 08:20:00,Kalkulus I,1,3,DWI PURNAMA,R007,B,20
+Jumat,08:25:00 - 09:15:00,Kalkulus I,1,3,DWI PURNAMA,R007,B,20
+Jumat,09:20:00 - 10:10:00,Kalkulus I,1,3,DWI PURNAMA,R007,B,20
+Jumat,10:15:00 - 11:10:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R007,B,20
+Jumat,13:00:00 - 13:50:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R007,B,20
+Jumat,13:55:00 - 14:45:00,Rekayasa dan Organisasi Sistem Big Data,5,3,MUHAMMAD FAHMY NADHIF,R007,B,20
+Jumat,15:30:00 - 16:20:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R007,B,20
+Jumat,16:25:00 - 17:15:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R007,B,20
+Jumat,18:10:00 - 19:00:00,Desain Aplikasi Big Data,5,3,FAJAR MUSLIM,R007,B,20
+Jumat,07:30:00 - 08:20:00,Metode Numerik,3,3,UMI SALAMAH,R008,B,45
+Jumat,08:25:00 - 09:15:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R008,D,45
+Jumat,09:20:00 - 10:10:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R008,D,45
+Jumat,10:15:00 - 11:10:00,Desain & Analisis Algoritma,3,3,AKHMAD SYAIFUDDIN,R008,D,45
+Jumat,13:00:00 - 13:50:00,Kriptografi,5,3,BAMBANG HARJITO,R008,A,45
+Jumat,13:55:00 - 14:45:00,Kriptografi,5,3,BAMBANG HARJITO,R008,A,45
+Jumat,15:30:00 - 16:20:00,Kriptografi,5,3,BAMBANG HARJITO,R008,A,45
+Jumat,07:30:00 - 08:20:00,Pendidikan Agama Islam,1,2,CHOIROEL ANAM,R009,B,30
+Jumat,08:25:00 - 09:15:00,Pendidikan Agama Islam,1,2,CHOIROEL ANAM,R009,B,30
+Jumat,09:20:00 - 10:10:00,Bahasa Indonesia,1,2,HENRY YUSTANTO,R009,A,30
+Jumat,10:15:00 - 11:10:00,Bahasa Indonesia,1,2,HENRY YUSTANTO,R009,A,30
+Jumat,13:00:00 - 13:50:00,Bahasa Indonesia,1,2,HENRY YUSTANTO,R009,B,30
+Jumat,13:55:00 - 14:45:00,Bahasa Indonesia,1,2,HENRY YUSTANTO,R009,B,30
+Jumat,15:30:00 - 16:20:00,Organisasi dan Arsitektur Komputer,1,3,HERDITO IBNU DEWANGKORO,R009,B,30
+Jumat,16:25:00 - 17:15:00,Organisasi dan Arsitektur Komputer,1,3,HERDITO IBNU DEWANGKORO,R009,B,30
+Jumat,07:30:00 - 08:20:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,A,30
+Jumat,08:25:00 - 09:15:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,A,30
+Jumat,09:20:00 - 10:10:00,Desain dan Analisis Algoritma,3,3,HASAN DWI CAHYONO,R010,A,30
+Jumat,10:15:00 - 11:10:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R010,A,30
+Jumat,13:00:00 - 13:50:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R010,A,30
+Jumat,13:55:00 - 14:45:00,Jaringan Komputer,3,3,WISNU WIDIARTO,R010,A,30
+Jumat,15:30:00 - 16:20:00,Kecerdasan Buatan,3,3,WIHARTO,R010,A,30
+Jumat,16:25:00 - 17:15:00,Kecerdasan Buatan,3,3,WIHARTO,R010,A,30
+Jumat,18:10:00 - 19:00:00,Kecerdasan Buatan,3,3,WIHARTO,R010,A,30

@@ -1,9 +1,0 @@
-{
-  "project": "interval",
-  "jobs": [
-    {"id": 1, "start": 8, "finish": 10, "profit": 10},
-    {"id": 2, "start": 9, "finish": 11, "profit": 6},
-    {"id": 3, "start": 10, "finish": 12, "profit": 12},
-    {"id": 4, "start": 7, "finish": 9, "profit": 8}
-  ]
-}
