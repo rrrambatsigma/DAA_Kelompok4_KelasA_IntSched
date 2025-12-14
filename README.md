@@ -1,8 +1,12 @@
 ```md
-# DAA Instance Package  
-**Proyek:** Interval Scheduling – Greedy Algorithms (EFT vs Profit Density)
+# DAA Instance Package – Interval Scheduling
 
-Repository ini berisi *instance scheduling* yang telah **dikunci (locked)** berdasarkan hasil eksperimen pada notebook, beserta skrip Python untuk mengeksekusi algoritma **Earliest Finish Time (EFT)** dan **Greedy Profit Density** secara konsisten dan reproducible.
+Proyek ini berisi **instance scheduling berbasis interval** yang digunakan untuk eksperimen
+perbandingan algoritma **Greedy Earliest Finish Time (EFT)** dan **Greedy Profit Density**  
+pada mata kuliah *Desain dan Analisis Algoritma (DAA)*.
+
+Seluruh instance **dikunci (locked)** agar hasil eksperimen **reproducible** dan
+konsisten dengan notebook eksperimen.
 
 ---
 
@@ -13,12 +17,14 @@ Repository ini berisi *instance scheduling* yang telah **dikunci (locked)** berd
 DAA_Kelompok4_KelasA_IntSched/
 │
 ├── DAA_Instances/
-│   ├── run.py                  # Eksekusi algoritma pada instance JSON
-│   ├── generate_instances.py   # Generator instance (berbasis hasil eksperimen)
+│   ├── run.py                 # Eksekusi algoritma EFT / Density dari JSON
+│   └── generate_instances.py  # Generator instance (CSV → JSON terkunci)
 │
 ├── data/
-│   ├── locked_instances.json   # Instance hasil randomisasi yang sudah dikunci
-│   └── normalized_fix_2.csv    # Dataset asli
+│   └── locked_instances.json  # Instance hasil randomisasi yang dikunci
+│
+├── notebook/
+│   └── 02 Bentuk Jupyter file dengan break .ipynb
 │
 └── README.md
 
@@ -26,69 +32,55 @@ DAA_Kelompok4_KelasA_IntSched/
 
 ---
 
-## Deskripsi File
+## Format Instance JSON
 
-### 📁 `data/locked_instances.json`
-- Berisi **instance interval scheduling yang sudah dikunci**
-- Dibangkitkan dari eksperimen notebook dengan:
-  - ukuran instance (`n`)
-  - seed random
-- Digunakan agar:
-  - hasil eksperimen **tidak berubah**
-  - evaluasi algoritma **reproducible**
-- Setiap instance merepresentasikan:
-  - Hari
-  - Ruang
-  - Sekumpulan interval (kelas)
-  - Atribut waktu, SKS, dan profit density
+Setiap instance mewakili **1 kombinasi Hari + Ruang**.
 
----
-
-### 🐍 `run.py`
-Script utama untuk **menjalankan algoritma greedy langsung dari file JSON**, tanpa randomisasi ulang.
-
-Algoritma yang tersedia:
-- `EFT` → Earliest Finish Time
-- `DENSITY` → Greedy Profit Density
-
-Fungsi utama:
-- Load instance dari JSON
-- Jalankan algoritma per instance
-- Hitung:
-  - jumlah interval terpilih
-  - total SKS
-  - runtime
-  - validitas jadwal (tanpa konflik)
-
----
-
-### 🧪 `generate_instances.py`
-Script untuk **membuat instance JSON** dari dataset CSV.
-
-Digunakan untuk:
-- Menghasilkan instance berbasis eksperimen notebook
-- Mengunci hasil randomisasi ke dalam JSON
-- Menjamin hasil `run.py` sama dengan notebook
-
----
-
-## Cara Pakai Cepat
-
-### Masuk ke folder eksekusi
-```bash
-cd DAA_Instances
+Struktur utama:
+```json
+{
+  "group": "G04",
+  "source_dataset": "...normalized_fix_2.csv",
+  "instances": [
+    {
+      "instance_id": "Kamis_R001",
+      "num_intervals": 11,
+      "data": [ ... ]
+    }
+  ]
+}
 ````
 
-### 1. Jalankan algoritma EFT
+Setiap interval memiliki atribut:
+
+* Hari
+* Mata Kuliah
+* SKS
+* Ruang
+* start, finish
+* duration
+* profit_density
+
+---
+
+## Cara Pakai (Quick Start)
+
+Masuk ke folder `DAA_Instances`:
 
 ```bash
-python run.py --data ..\data\locked_instances.json --algo EFT
+cd DAA_Instances
 ```
 
-### 2. Jalankan algoritma Greedy Density
+### 1. Jalankan Algoritma Greedy EFT
 
 ```bash
-python run.py --data ..\data\locked_instances.json --algo DENSITY
+python run.py --data ../data/locked_instances.json --algo EFT
+```
+
+### 2. Jalankan Algoritma Greedy Profit Density
+
+```bash
+python run.py --data ../data/locked_instances.json --algo DENSITY
 ```
 
 ---
@@ -97,39 +89,75 @@ python run.py --data ..\data\locked_instances.json --algo DENSITY
 
 Untuk setiap instance, program akan menampilkan:
 
-* ID instance
+* Instance ID
 * Algoritma yang digunakan
-* Jumlah interval (kelas) terpilih
+* Jumlah interval terpilih
 * Total SKS
 * Runtime (ms)
-* Status validitas jadwal (tidak konflik)
+* Validitas jadwal (tidak konflik)
+* Daftar interval terpilih
 
-## Kompleksitas Algoritma
+---
 
-| Algoritma                  | Kompleksitas Waktu |
-| -------------------------- | ------------------ |
-| Earliest Finish Time (EFT) | O(n log n)         |
-| Greedy Profit Density      | O(n log n + n²)    |
+## Algoritma yang Digunakan
 
-Keterangan:
+### 1. Greedy Earliest Finish Time (EFT)
 
-* `n` = jumlah interval dalam satu instance
-* Faktor `n²` pada Density berasal dari pengecekan konflik antar interval
+* Urut berdasarkan `finish_abs`
+* Ambil interval yang selesai paling cepat dan tidak konflik
+
+**Kompleksitas Waktu**
+
+```
+O(n log n)
+```
+
+---
+
+### 2. Greedy Profit Density
+
+* Urut berdasarkan `profit_density` (descending)
+* Cek konflik terhadap interval yang sudah dipilih
+
+**Kompleksitas Waktu**
+
+```
+O(n log n + n²)
+```
+
+---
+
+## Reproducibility
+
+* Randomisasi dilakukan **di notebook**
+* Instance disimpan ke `locked_instances.json`
+* `run.py` **tidak melakukan randomisasi**
+* Hasil CLI = hasil notebook
 
 ---
 
 ## Tujuan Penggunaan
 
-* Evaluasi performa algoritma greedy
-* Perbandingan kualitas solusi (total SKS)
-* Analisis runtime
-* Studi best case dan worst case
-* Dokumentasi eksperimen DAA yang reproducible
+* Membandingkan EFT vs Density secara adil
+* Analisis runtime, jumlah interval, dan total SKS
+* Menunjukkan trade-off optimalitas vs kecepatan
+* Eksperimen dapat direproduksi tanpa notebook
 
 ---
 
-**Catatan Akhir:**
-File `locked_instances.json` merupakan **ground truth eksperimen**.
-Notebook digunakan untuk eksplorasi, sedangkan `run.py` digunakan untuk eksekusi cepat dan validasi hasil.
+## Catatan
+
+* File `locked_instances.json` **tidak boleh diubah**
+* Jika ingin eksperimen baru, gunakan `generate_instances.py`
+* Notebook hanya untuk eksplorasi dan analisis
+
+---
+
+## Contoh Perintah Lengkap
+
+```bash
+python run.py --data ../data/locked_instances.json --algo EFT
+python run.py --data ../data/locked_instances.json --algo DENSITY
+```
 
 ```
