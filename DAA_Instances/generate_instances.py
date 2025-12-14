@@ -1,57 +1,115 @@
-import json, random
+# ==========================================================
+# generate_instances.py
+# Generate LOCKED experiment instances from notebook logic
+# ==========================================================
+
+import pandas as pd
+import json
 from pathlib import Path
 
-# -------------------------------------
-# Lokasi folder data (satu level di atas DAA_Instances)
-# -------------------------------------
-BASE = Path(__file__).resolve().parent.parent / "data"
-BASE.mkdir(exist_ok=True)
+# ==========================================================
+# PATH CONFIG
+# ==========================================================
 
-def save(name, obj):
-    p = BASE / name
-    with open(p, "w", encoding="utf-8") as f:
-        json.dump(obj, f, indent=2)
-    return p
+BASE_DIR = Path(__file__).resolve().parent
+DATASET_PATH = BASE_DIR.parent / "data" / "normalized_fix_2.csv"
+OUTPUT_PATH = BASE_DIR.parent / "data" / "locked_instances.json"
 
+# ==========================================================
+# LOAD & PREPROCESS DATA (IDENTIK NOTEBOOK)
+# ==========================================================
 
-# -------------------------------------
-# Generator Instance Interval Scheduling
-# -------------------------------------
-def generate(seed=1):
-    random.seed(seed)
-    jobs = []
+def load_dataset(path):
+    df = pd.read_csv(path)
 
-    # jumlah job bervariasi
-    n = 8 + (seed % 5)
+    df["profit_density"] = df["profit_density"].fillna(0)
 
-    for i in range(n):
-        start = random.randint(7, 14)          # jam mulai
-        duration = random.randint(1, 3)        # lama kegiatan
-        finish = start + duration
-        profit = random.randint(5, 20)         # bobot / profit
-
-        jobs.append({
-            "id": i + 1,
-            "start": start,
-            "finish": finish,
-            "profit": profit
-        })
-
-    return {
-        "project": "interval",
-        "jobs": jobs
+    day_map = {
+        'Senin': 0,
+        'Selasa': 1,
+        'Rabu': 2,
+        'Kamis': 3,
+        'Jumat': 4,
+        'Sabtu': 5,
+        'Minggu': 6
     }
 
+    def get_minutes(day, time_str):
+        if day not in day_map:
+            return -1
+        h, m, s = map(int, time_str.split(':'))
+        return day_map[day] * 24 * 60 + h * 60 + m
 
-# -------------------------------------
-# MAIN – generate beberapa instance
-# -------------------------------------
+    df["start_abs"] = df.apply(
+        lambda x: get_minutes(x["Hari"], x["start"]), axis=1
+    )
+    df["finish_abs"] = df.apply(
+        lambda x: get_minutes(x["Hari"], x["finish"]), axis=1
+    )
+
+    # ID HARUS SAMA DENGAN NOTEBOOK
+    df["id"] = df.index
+
+    return df
+
+
+# ==========================================================
+# GENERATE LOCKED INSTANCES (MENIRU NOTEBOOK)
+# ==========================================================
+
+def generate_locked_instances(df):
+    sizes_to_test = [10, 20, 30, 40]
+    seeds_to_test = [0, 1]
+
+    instances = []
+
+    for n in sizes_to_test:
+        for seed in seeds_to_test:
+            subset = df.sample(
+                n=n,
+                random_state=seed
+            ).reset_index(drop=True)
+
+            instances.append({
+                "instance_id": f"n{n}_seed{seed}",
+                "n": n,
+                "seed": seed,
+                "num_intervals": len(subset),
+                "data": subset.to_dict(orient="records")
+            })
+
+    return instances
+
+
+# ==========================================================
+# MAIN
+# ==========================================================
+
 def main():
-    for i in range(1, 6):
-        inst = generate(seed=100 + i)
-        save(f"interval_G{i:02d}.json", inst)
+    print("Loading dataset...")
+    df = load_dataset(DATASET_PATH)
 
-    print("Generated 5 interval scheduling instances inside /data folder.")
+    print("Generating locked instances (NOTEBOOK-CONSISTENT)...")
+    instances = generate_locked_instances(df)
+
+    output = {
+        "experiment_id": "Greedy_Scheduling_EFT_vs_Density",
+        "source_dataset": str(DATASET_PATH),
+        "note": "Instances generated using the same random sampling (n, seed) as notebook experiments",
+        "num_instances": len(instances),
+        "instances": instances
+    }
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print("==============================================")
+    print("LOCKED INSTANCES GENERATED SUCCESSFULLY")
+    print(f"Output file : {OUTPUT_PATH}")
+    print(f"Total instances : {len(instances)}")
+    print("==============================================")
 
 
 if __name__ == "__main__":

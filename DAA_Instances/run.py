@@ -1,90 +1,154 @@
-import json, argparse, time
+# ==========================================================
+# run.py
+# Experiment Runner (LOCKED JSON Instances)
+# Greedy EFT vs Greedy Profit Density
+# ==========================================================
+
+import json
+import argparse
+import time
 from pathlib import Path
+import pandas as pd
 
+# ==========================================================
+# GREEDY ALGORITHMS (IDENTIK NOTEBOOK)
+# ==========================================================
 
-# -------------------------------------
-# ALGO A: Greedy Earliest Finish Time
-# -------------------------------------
-def algo_A(instance):
-    jobs = sorted(instance["jobs"], key=lambda x: x["finish"])
-    result = []
+def run_algo_eft(data: pd.DataFrame):
+    t0 = time.perf_counter()
+
+    sorted_data = data.sort_values(
+        by=["finish_abs", "start_abs", "id"],
+        kind="mergesort"
+    )
+
+    schedule = []
     last_finish = -1
 
-    for job in jobs:
-        if job["start"] >= last_finish:
-            result.append(job)
-            last_finish = job["finish"]
+    for _, row in sorted_data.iterrows():
+        if row["start_abs"] >= last_finish:
+            schedule.append(row)
+            last_finish = row["finish_abs"]
 
-    return result
+    runtime_ms = (time.perf_counter() - t0) * 1000
+    return schedule, runtime_ms
 
 
-# -------------------------------------
-# ALGO B: Greedy Profit Density
-# -------------------------------------
-def algo_B(instance):
-    jobs = sorted(instance["jobs"],
-                  key=lambda x: x["profit"] / (x["finish"] - x["start"]),
-                  reverse=True)
+def run_algo_density(data: pd.DataFrame):
+    t0 = time.perf_counter()
 
-    result = []
-    active = []
+    sorted_data = data.sort_values(
+        by=["profit_density", "finish_abs", "id"],
+        ascending=[False, True, True],
+        kind="mergesort"
+    )
 
-    for job in jobs:
-        overlap = False
-        for a in active:
-            # cek bentrok interval
-            if not (job["finish"] <= a["start"] or job["start"] >= a["finish"]):
-                overlap = True
+    schedule = []
+    occupied = []
+
+    for _, row in sorted_data.iterrows():
+        s, f = row["start_abs"], row["finish_abs"]
+        conflict = False
+
+        for os, of in occupied:
+            if s < of and f > os:
+                conflict = True
                 break
 
-        if not overlap:
-            result.append(job)
-            active.append(job)
+        if not conflict:
+            schedule.append(row)
+            occupied.append((s, f))
 
-    return result
-
-
-# -------------------------------------
-# Evaluator: Total Profit
-# -------------------------------------
-def evaluate(output):
-    return sum(j["profit"] for j in output)
+    runtime_ms = (time.perf_counter() - t0) * 1000
+    return schedule, runtime_ms
 
 
-# -------------------------------------
-# MAIN EXECUTION
-# -------------------------------------
+# ==========================================================
+# EVALUATOR
+# ==========================================================
+
+def evaluate_schedule(schedule):
+    total_sks = sum(row["SKS"] for row in schedule)
+    return {
+        "n_selected": len(schedule),
+        "total_sks": total_sks
+    }
+
+
+# ==========================================================
+# LOAD JSON INSTANCES
+# ==========================================================
+
+def load_instances(json_path: Path):
+    with open(json_path, "r", encoding="utf-8") as f:
+        content = json.load(f)
+
+    return content["instances"]
+
+
+# ==========================================================
+# MAIN
+# ==========================================================
+
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--instance", required=True,
-                        help="Path ke file JSON misalnya: data/interval_dummy.json")
-    parser.add_argument("--algo", choices=["A", "B"], default="A")
+    parser = argparse.ArgumentParser(
+        description="Run Interval Scheduling Experiments from LOCKED JSON Instances"
+    )
+
+    parser.add_argument(
+        "--data",
+        required=True,
+        help="Path ke file JSON instance (locked_instances.json)"
+    )
+
+    parser.add_argument(
+        "--algo",
+        choices=["EFT", "DENSITY"],
+        required=True,
+        help="Algoritma yang dijalankan"
+    )
+
     args = parser.parse_args()
 
-    # Path instance berdasarkan struktur dosen:
-    # DAA_Instances/run.py  ← file ini
-    # data/... berada di luar folder ini
-    base_dir = Path(__file__).resolve().parent.parent
-    instance_path = base_dir / args.instance
+    json_path = Path(args.data).resolve()
+    if not json_path.exists():
+        raise FileNotFoundError(f"File tidak ditemukan: {json_path}")
 
-    if not instance_path.exists():
-        raise FileNotFoundError(f"Instance file tidak ditemukan: {instance_path}")
+    instances = load_instances(json_path)
 
-    # load instance
-    with open(instance_path, "r", encoding="utf-8") as f:
-        inst = json.load(f)
+    print("\n==============================================")
+    print(" INTERVAL SCHEDULING – EXPERIMENT RUNNER")
+    print("==============================================")
+    print(f"Algorithm : {args.algo}")
+    print(f"Instances : {len(instances)}")
 
-    t0 = time.perf_counter()
-    out = algo_A(inst) if args.algo == "A" else algo_B(inst)
-    dt = (time.perf_counter() - t0) * 1000
-    score = evaluate(out)
+    # ======================================================
+    # LOOP INSTANCE
+    # ======================================================
 
-    print(f"\nAlgo = {args.algo}")
-    print(f"Total Profit = {score}")
-    print(f"Time = {dt:.2f} ms")
-    print("\nOutput Jobs:")
-    for job in out:
-        print(job)
+    for inst in instances:
+        df = pd.DataFrame(inst["data"])
+
+        print("\n----------------------------------------------")
+        print(f"Instance ID     : {inst['instance_id']}")
+        print(f"n (intervals)   : {inst['num_intervals']}")
+        print(f"Seed            : {inst['seed']}")
+
+        if args.algo == "EFT":
+            schedule, runtime = run_algo_eft(df)
+        else:
+            schedule, runtime = run_algo_density(df)
+
+        eval_res = evaluate_schedule(schedule)
+
+        print(f"Runtime (ms)    : {runtime:.4f}")
+        print(f"Jumlah Kelas    : {eval_res['n_selected']}")
+        print(f"Total SKS       : {eval_res['total_sks']}")
+        print("Selected IDs    :", [row["id"] for row in schedule])
+
+    print("\n==============================================")
+    print(" EXPERIMENT FINISHED")
+    print("==============================================")
 
 
 if __name__ == "__main__":
