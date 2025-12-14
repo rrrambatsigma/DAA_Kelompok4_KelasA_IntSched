@@ -1,30 +1,37 @@
 ```md
-# DAA Instance Package – Interval Scheduling
 
-Proyek ini berisi **instance scheduling berbasis interval** yang digunakan untuk eksperimen
-perbandingan algoritma **Greedy Earliest Finish Time (EFT)** dan **Greedy Profit Density**  
-pada mata kuliah *Desain dan Analisis Algoritma (DAA)*.
+## DAA Instance Package – Interval Scheduling
 
-Seluruh instance **dikunci (locked)** agar hasil eksperimen **reproducible** dan
-konsisten dengan notebook eksperimen.
+Proyek ini berisi instance interval scheduling yang digunakan untuk eksperimen
+perbandingan algoritma:
+
+- Greedy Earliest Finish Time (EFT)
+- Greedy Profit Density
+
+pada mata kuliah Desain dan Analisis Algoritma (DAA).
+
+Seluruh instance **dikunci (locked)** agar hasil eksperimen:
+- reproducible  
+- konsisten dengan notebook eksperimen  
 
 ---
 
 ## Struktur Folder
 
-```
-
+```text
 DAA_Kelompok4_KelasA_IntSched/
-│
 ├── DAA_Instances/
-│   ├── run.py                 # Eksekusi algoritma EFT / Density dari JSON
-│   └── generate_instances.py  # Generator instance (CSV → JSON terkunci)
-│
-├── data/
-│   └── locked_instances.json  # Instance hasil randomisasi yang dikunci
+│   ├── run.py
+│   │   └── Eksekusi algoritma EFT / Density dari file JSON
+│   ├── generate_instances.py
+│   │   └── Generator instance (CSV → JSON terkunci)
+│   └── data/
+│       └── locked_instances.json
+│           └── Instance hasil randomisasi yang dikunci
 │
 ├── notebook/
-│   └── 02 Bentuk Jupyter file dengan break .ipynb
+│   └── 02 Bentuk Jupyter file dengan break.ipynb
+│       └── Notebook eksperimen utama
 │
 └── README.md
 
